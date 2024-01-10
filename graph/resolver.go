@@ -8,4 +8,5 @@ import "github.com/wilsonraj-dev/GoWithGrapQL/internal/database"
 
 type Resolver struct {
 	CategoryDB *database.Category
+	CourseDB *database.Course
 }
